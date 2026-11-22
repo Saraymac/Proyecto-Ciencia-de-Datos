@@ -1,0 +1,7 @@
+Modelo,Espacio de búsqueda,Combinaciones,Mejores hiperparámetros,AP CV media,AP CV desv.,Tiempo (s)
+Regresión logística,"C ∈ {0.001, 0.01, 0.1, 1, 10}; L2; class_weight = balanced",5,{'C': 0.1},0.4019,0.0074,6.7
+Naive Bayes,"CategoricalNB; intervalos ∈ {4, 6, 10, 15} × α ∈ {0.1, 0.5, 1, 5}",16,"{'alpha': 0.1, 'n_bins': 4}",0.39,0.0131,6.6
+SVM,"lineal: C ∈ {0.001, 0.01, 0.1, 1}; RBF: C ∈ {0.1, 1, 10, 100} × γ ∈ {0.001, 0.01, 0.1, 1}; submuestra de 6 000, CV de 3 folds",16,"{'C': 100, 'gamma': 0.001, 'kernel': 'rbf'}",0.3573,0.0218,44.2
+MLP,"capas ∈ {(16), (64), (64, 32)} × activación ∈ {ReLU, tanh} × α ∈ {1e-4, 1e-2, 1} × tasa ∈ {0.001, 0.01}; detención temprana",36,"{'activation': 'relu', 'alpha': 0.0001, 'hidden_layer_sizes': (64, 32), 'learning_rate_init': 0.01}",0.429,0.0084,69.4
+SVM (otro kernel),—,4,"{'C': 1, 'kernel': 'linear'}",0.3566,0.0198,9.8
+NB gaussiano (comparación),—,4,{'var_smoothing': 0.001},0.3379,0.0123,1.9

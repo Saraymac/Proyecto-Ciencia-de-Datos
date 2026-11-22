@@ -1,0 +1,7 @@
+Comparación,a acierta / b falla,a falla / b acierta,χ²,p McNemar,ΔF1 (a − b),IC 95 % ΔF1
+Regresión logística vs Naive Bayes,186,228,4.06,0.044,0.0219,"[0.006, 0.039]"
+Regresión logística vs SVM,126,163,4.48,0.034,-0.016,"[-0.029, -0.004]"
+Regresión logística vs MLP,196,299,21.02,4.55e-06,-0.0473,"[-0.065, -0.029]"
+Naive Bayes vs SVM,245,240,0.03,0.856,-0.0379,"[-0.057, -0.021]"
+Naive Bayes vs MLP,276,337,5.87,0.015,-0.0692,"[-0.091, -0.049]"
+SVM vs MLP,178,244,10.01,0.002,-0.0313,"[-0.047, -0.015]"

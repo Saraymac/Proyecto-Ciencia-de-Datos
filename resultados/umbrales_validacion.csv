@@ -1,0 +1,5 @@
+Modelo,Umbral por defecto,F1 val. (defecto),Umbral elegido,F1 val. (elegido)
+Regresión logística,0.5,0.3774,0.6201,0.4351
+Naive Bayes,0.5,0.3839,0.3596,0.4296
+SVM,0.0,0.4173,0.5747,0.4534
+MLP,0.5,0.3938,0.2446,0.468

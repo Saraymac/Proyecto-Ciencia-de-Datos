@@ -1,0 +1,5 @@
+Modelo,Llamando al 10 %,Llamando al 20 %,Llamando al 30 %,Llamando al 50 %
+Regresión logística,40.2,55.3,64.5,80.2
+Naive Bayes,38.7,53.5,64.5,80.0
+SVM,40.4,57.3,67.4,81.9
+MLP,42.9,61.1,69.1,81.0
